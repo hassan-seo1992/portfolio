@@ -1,0 +1,56 @@
+h1 {
+    color: brown;
+}
+body{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 20px;
+}
+h2{
+    color: darkgreen;
+}
+header{
+    text-align: center;    
+}
+img{
+    border-radius: 60px;
+}
+nav a{
+    margin: 0 10px;
+    color: darkgoldenrod;
+    text-decoration: none;
+
+}
+p {
+    padding: 10px;
+}
+.card{
+    background-color: coral;
+    border: 2px solid darkgreen;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project{
+    background-color: white;
+    border: 2px solid darkolivegreen;
+    padding: 20px;
+    width: 250px;
+    max-width: 100%;
+}
+@media (max-width: 600px) {
+   h1{font-size: 24px;
+    }
+    .card{margin: 10px;
+    }
+    .project{
+        width: 100%;
+    }
+}
