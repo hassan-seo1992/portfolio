@@ -52,5 +52,9 @@ p {
     }
     .project{
         width: 100%;
-    }
 }
+ }
+    nav a:hover{
+        color: red;
+        text-decoration: underline;
+    }
